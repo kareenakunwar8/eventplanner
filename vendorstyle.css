@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.headimgabout{
+  height: 493px;
+  width: 100%;
+
+}
+.about{
+  margin-top: -268px;
+  position: absolute;
+  font-size: 40px;
+  color: white;
+  margin-left: 40%;
+  font-family:Segoe Print ;
+}
+
+.linkpage{
+  margin-top: -200px;
+  position: absolute;
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 50%;
+  font-family:Californian FB;
+}
+
+/* vendor contener css start */
+.vendor_conteiner{
+
+height:500px;
+width:500px;
+display:grid;
+grid-template-columns:60% 60% 60%;
+    grid-template-rows:60% 60% 60%;
+    row-gap:40px;
+    column-gap:40px;
+	margin-left:15%;
+  margin-top: 44px;
+  margin-bottom: 570px;
+
+}
+
+.box{
+box-shadow: 0 0 10px #7d878e9c;
+   position: relative;
+   overflow: hidden;
+   display: block;
+}
+.box2{
+	position: absolute;
+color: rgb(244, 244, 245);
+background-color:#09050a94;
+transform:translate(-50%,-0%);
+opacity: 0;
+transition: opacity 0.3s ease;
+width:100%;
+left: 50%;
+bottom: 0%;
+margin-top:2px;
+
+}
+.box:hover .box2
+{
+	opacity:1;
+}
+
+.vendor_img{
+height:100%;
+width:100%;
+display: block;
+}
+.vendor_img:hover{
+  opacity: 0.4;
+  color:#92aec498;
+}
+
+.Name
+{
+font-size: xx-large;
+}
+.query_button
+{
+  height:30px;
+  width:150px;
+  margin-top:5px;
+    text-align:left;
+      font-size:x-large;
+      color: black;
+      border: 0px ;
+}
+button:hover{
+	background-color:#0f588cf1;
+  color: white;
+}
+/* vendor contener css close */
+
+.overlay-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  backdrop-filter: blur(0px); /* Adjust the blur intensity */
+  z-index: 9998;
+  display: none;
+  
+}
+
+.overlay {
+    position: absolute;
+margin-top: 57px;
+margin-left: 441px;
+background-color: #f2f2f2;
+padding: 20px;
+border-radius: 10px;
+width: 388px;
+height: 493px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+z-index: 9999;
+}
+
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+.content{
+  font-family: Segoe Print;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 58px;
+}
+
+/*form style  open*/
+
+/*form style  close*/
+
+  
+
+
+
+
+    
+    .overlay {
+overflow: hidden;
+top: 1119px;
+      
+left: 224px;
+transform: translate(-50%, -50%);
+background-color: #f2f2f2;
+padding: 20px;
+border-radius: 10px;
+width: 428px;
+height: 389px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+z-index: 9999;
+}
+    
+
+    .close-btn {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      cursor: pointer;
+    }
+
+
+    .form_container
+{
+box-shadow: 1px -2px 13px 0px #86a0b6;
+background-color: #86a0b6;
+width: 30%;
+height: 90%;
+color: rgb(255 255 255);
+}
+.submit_button
+{
+height:40px;
+font-size:x-large;
+width:100%;
+border: 1px solid white;
+background-color: #425f76;
+color:white;
+}
+.submit_button:hover{
+background-color:#86a0b6 ;
+color:black;
+}
+.encurey_textarea{
+margin-top:-8px;
+}
+.encurey_textname
+{
+height: 30px;
+margin-right:10%;
+margin-top:2px;
+}
+.encurey_textnumber
+{
+height: 30px;
+margin-top:8px;
+}
+.encurey_head{
+padding:6%;
+font-size:40px;
+}
+.enquirey_name{
+margin-top: -54px;
+}
+a{
+text-decoration:none;
+color: black;
+}
+
+/*next button style*/
+
+
+

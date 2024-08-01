@@ -1,0 +1,638 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+
+}
+.photos a
+{
+      overflow-x: auto !important;
+}
+
+
+  /* navigationbar css start */
+
+.nav_container{
+width: 100%;
+height: 140px;
+position: sticky !important;
+margin-top: 0%;
+overflow: hidden;
+z-index: 1;
+}
+.firstbar
+{
+  background-color:#7391aa;
+  height: 40px;
+  overflow: hidden;
+  color: white;
+  font-family:Californian FB;
+
+}
+.secondbar{
+   color: rgb(0, 0, 0);
+   background-color: white;
+width: 100%;
+height: 100px;
+font-family:Segoe Print ;
+
+overflow: hidden;
+}
+.logo
+{
+  float: left;
+  
+
+}
+.logo1
+{
+  
+  width: 143px;
+    margin-left: 50px;
+    height: 120px;
+    height: 98px;
+    background-image: none;
+
+}
+.number{
+  margin-left: 69px;
+    text-decoration: none;
+    color: white;
+    float: left;
+    font-family:Californian FB;
+
+}
+.number2{
+  margin-left: 1px;
+  text-decoration: none;
+  color:white;
+  
+  font-family:Californian FB;
+
+  float: left;
+
+  }
+.firstbaricon{
+  margin-right: 5px;
+  height: 20px;
+  width: 20px;
+  float: left;
+}
+.firstbaricon2{
+  height: 20px;
+  width: 20px;
+  float: left;
+
+  margin-left: 6px;
+
+}
+.photos{
+  margin-left:1138px;
+    float: left;
+    margin-top: -6px;
+
+}
+.baricons{
+  height:30px;
+  margin-left:4px ;
+  width:30px;
+  margin-top: -17px;
+}
+.subbar{
+  float: left;
+  margin-left: -48px;
+  font-family:Segoe Print ;
+
+  margin-top: 6px;
+}
+.baroption{
+  background-color:white;
+  color:black;
+  border: 0px;
+   font-size: 20px;
+    margin-top: 28px;
+    margin-left: 8px;
+text-decoration: none;
+font-family:Segoe Print ;
+
+
+
+}
+.baroption:hover{
+  color: #7391aa;
+}
+.menubar{
+  margin-left: 296px;
+        
+  height: 74px;
+  font-family: Segoe Print;;
+
+  }
+ .barnumboptionone{
+ width:203px;
+ }
+
+
+ 
+  .menulink{
+    
+    font-size: 20px;
+    margin-left: 29px;
+    font-family:Segoe Print ;
+
+    color: black;
+    border: none;
+    background-color: white;
+    text-decoration: none;
+    
+  }
+  .menulink:hover{
+    color:  #7391aa;;
+    
+  }
+
+
+  /* navigationbar css stop */
+
+
+/* slider css start */
+.slider-container {
+    margin: auto;
+    overflow: hidden;
+    width: 10px;
+    object-fit: contain;
+  }
+
+  .slider_image {
+    display: flex;
+  }
+  .slide {
+    width: 1389px;
+    height: 422px;
+    margin-left: -3px;
+  }
+
+  .prev, .next {
+
+    cursor: pointer;
+  position: absolute;
+    top: 96px;
+    width: auto;
+    padding: 53px;
+    margin-top: 173px;
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    border-radius: 0 12px 3px 0;
+  }
+
+  .next {
+    right:-20px;
+  }
+
+  
+
+  /* slider css stop */
+  /* explore button css start */
+
+  .explorebutton{
+    width: 126px;
+    height: 45px;
+   
+    background-color: #7391aa;
+    border-radius: 30px;
+    color: rgb(255 255 255);
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 30px #afcbe3;
+    transition-duration: .5s;
+    z-index: 3;
+    margin-left: 20px;
+    margin-top: -85px;
+    position: absolute;
+  }
+  .explorebutton:hover{
+    background-color: #b4d1eb;
+    color:black
+  }
+    /* explore button css close */
+
+      /* whatap chat button css open */
+
+ .whatappbutton{
+  margin-left: 1235px;
+  margin-top: -30px;
+ position: fixed;
+ height:60px;
+ width:60px;
+ z-index: 4;
+ }
+       /* whatap chat button css close*/
+
+  /* vendors css start */
+.header{
+  font-family:Segoe Print ;
+  margin-top: 37px;
+
+}
+  
+  .vendor_container{
+    width: 1383px;
+    height: 45%;
+    display: flex;
+    position: relative;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    margin-left: -20px;
+
+  }
+
+
+  .circle{
+    border-radius: 50%;
+    width:200px;
+    height:200px;
+    margin-top: 10px;
+    object-fit: cover;
+    position: relative;
+  }
+  
+  .makeup{
+    width: 220px ;
+    height: 45%;
+   overflow: hidden;
+   display: block;
+   margin-left: 30px;
+   object-fit: cover;
+   flex-shrink: 0;
+   left: 0%;
+   text-align: center;
+   position: relative;
+   }
+  .message{
+
+background-color: rgba(18, 16, 17, 0.51);
+color: rgb(255, 255, 255);
+margin-top: -105px;
+    margin-left: 110px ;
+position: absolute;
+overflow: hidden;
+transform:translate(-50%,-50%);
+opacity: 0;
+transition: opacity 0.3s ease;
+border-radius: 50%;
+ width:200px;
+  height:200px;
+  text-align: center;
+  }
+  .makeup:hover .message
+{
+	opacity:1;
+
+}
+.venname{
+  text-align: center;
+  font-size: 29px;
+  position: absolute;
+  color: whitesmoke;
+  margin-top: 79px;
+  margin-left: 30px;
+}
+.hr1 {
+  margin-top: 6px;
+}
+
+.nextvendor {
+  right:-54px;
+}
+  /* vendors css stop */
+
+
+/*message girl open*/
+
+.message_girl_container{
+ 
+  width: 1357px;
+    margin-top: 108px;
+    height: 414px;
+    margin-bottom: -48px;
+    overflow: hidden;
+}
+.girl{
+  height:  376px;
+  width: 290px;
+  float: left;
+  margin-left: 199px;
+  border: 18px solid #425f76;
+  overflow: hidden;
+}
+.message_box{
+
+  height: 414px;
+  width: 343px;
+  float: left;
+  overflow: hidden;
+  margin-left: 160px;
+  font-size: 30px;
+  text-align: justify;
+}
+
+
+.contact_button{
+  font-size: 1.2rem;
+  padding: 1rem 2.5rem;
+  border: none;
+  margin-top: 49px;
+  margin-left: 71px;
+  outline: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #7391aa;
+  color: rgb(234, 234, 234);
+  font-weight: 700;
+  transition: 0.6s;
+  box-shadow: 0px 0px 20px #61a2c7;
+  -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgb(247 247 247 / 40%));
+}
+.contact_button:active{
+  scale: 0.92;}
+.contact_button:hover{
+  scale: 0.92;
+    background: #bcd5ea;
+    background: linear-gradient(270deg, rgb(46, 92, 131 0%), rgba(31, 215, 232, 0.873) 60%);
+    color: rgb(46, 92, 131);
+  }
+
+/*message girl close */
+
+
+
+/*trusted vendors start */
+
+.tersted_vendors_container{
+  width: 140% ;
+    height: 45%;
+     display: flex;
+margin-left: 302px;
+margin-top: -50px;
+}
+.headertrust{
+  font-family: Segoe Print;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 75px;
+  margin-bottom: 46px;
+
+
+}
+.header{
+  font-size: 45px;
+  text-align: center;
+  margin-top: 64px;
+  margin-bottom: 21px 
+}
+.boxtrust{height: 125px;
+  width: 125px;
+  margin-left: 61px;
+  margin-top: 60px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #7d878e9c;
+
+}
+
+
+.trustname{
+  font-size: small;
+  position: absolute;
+  opacity: 0;
+  height: 125px;
+  width: 125px;
+  margin-left: 61px;
+  margin-top: 230px;
+    overflow: hidden;
+  border-radius: 10px;
+  background-color:#000000a4;
+  color:#ffffff;
+text-align: center;
+transition: opacity 0.3s ease-in-out;
+transform:translate(0px, -359px);
+
+}
+.imgtrust:hover .trustname
+{
+  opacity: 1;
+}
+.mgs{
+  font-size: 24px;
+  margin-top: 47px;
+}
+/*trusted vendors  stop*/
+
+
+/*follow section  start */
+
+.follow{
+  margin-left: 584px;
+  font-family:Segoe Print ;
+
+    margin-bottom: 71px
+
+}
+.follow:hover{
+  background-color: rgb(255, 255, 255);
+  opacity: 0.3;
+}
+.facebook{
+  margin-left: -5px;
+}
+
+/*follow section  stop*/
+
+
+
+
+
+/*footer start*/
+#vendorbar{
+  width:107px;
+}
+.footer_cantainer{
+  height: 411px;
+    width: 1350px;
+ background-color:#7391aa;
+color: rgb(255, 255, 255);
+
+  }
+  .nav_bar_list{
+margin-top: 2%;
+width: 405px;
+float: left;
+height: 318px;
+margin-left: 120px;
+margin-top: 87px;
+
+  }
+  .navbar_contact_list{
+margin-top: 2%;
+width: 578px;
+height: 317px;
+float: left;
+
+  }
+.map
+{ 
+margin-top: 2%;
+height:1s18px;
+width: 361px;
+float: left;
+margin-left: -175px;
+}
+.list_ul ,li{
+list-style-type: none;
+margin-top: 20px;
+}
+.send_query{
+height: 39px;
+width: 165px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*log in form*/
+
+/* Full-width input fields */
+.input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.database_button {
+  background-color: #7391aa;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.database_button:hover {
+  opacity: 0.8;
+  background-color: #425f76;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: 111px;
+    height: 42px;
+    padding: 7px 18px;
+  background-color: #7391aa;
+  color:white;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  padding-top: 60px;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px); /* Adjust the blur intensity */
+  z-index: 9998;
+}
+.loginpopup{
+  text-align: center;
+  font-size: xx-large;
+}
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 620px;
+  box-shadow: 0px 0px 4px 4px #7391aa;
+  border-radius: 15px;
+  height: 450px; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
